@@ -18,11 +18,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickGimnazija(View view) {
-        tvGimnazija.setText("radi");
+        tvGimnazija.setText(tvGimnazija.getText()+"Odeljnje III5");
     }
 
 
-    public void onClickbutton(View view){
+    /*public void onClickbutton(View view){
         textView.setText("Odeljenje III-5");
-    }
+    }*/
 }

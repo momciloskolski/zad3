@@ -13,22 +13,18 @@
         android:layout_height="wrap_content"
         android:onClick="onClickGimnazija"
         android:text="Gimnazija"
-        android:textSize="40sp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="139dp"
-        android:layout_height="61dp"
-        android:text="Dugme"
-        tools:layout_editor_absoluteX="218dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="171dp"
         android:layout_height="48dp"
         android:text="Odeljenje"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="91dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewGimnazija" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
